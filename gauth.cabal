@@ -1,0 +1,21 @@
+Name:                gauth
+Version:             0.1
+Synopsis:            Generate Google Authenticator tokens
+License:             BSD3
+License-file:        LICENSE
+Author:              Marko Bencun
+Maintainer:          mbencun@gmail.com
+Category:            Application
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+
+Executable gauth
+  Main-is:             Main.hs
+  Build-depends:       base >= 4.6.0.1,
+                       time >= 1.4.0.1,
+                       dataenc >= 0.14.0.5,
+                       bytestring >= 0.10.0.2,
+                       binary >= 0.5.1.1,
+                       Crypto >= 4.2.5.1
+  Ghc-options:         -O2 -Wall
