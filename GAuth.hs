@@ -1,6 +1,6 @@
 module GAuth(gauth_hotp, gauth_totp) where
 
-import Data.HMAC (hmac_sha1)
+import Data.HMAC(hmac_sha1)
 import qualified Data.Binary.Put as BP
 import qualified Data.Binary.Get as BG
 import qualified Data.ByteString.Lazy as BS
